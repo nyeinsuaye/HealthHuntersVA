@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>West Nile Virus</title>
+    <!--main stylesheet-->
+    <link href="css/linechart.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/leaflet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/MarkerCluster.css" rel="stylesheet" type="text/css"/>
+    <style>
+        body{
+            margin: 2% 4%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2%;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .bar {
+            fill: orange;
+        }
+
+        .bar:hover {
+            fill: orangered ;
+        }
+
+
+        .d3-tip {
+            line-height: 1;
+            font-weight: bold;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
+        }
+
+        /* Creates a small triangle extender for the tooltip */
+        .d3-tip:after {
+            box-sizing: border-box;
+            display: inline;
+            font-size: 10px;
+            width: 100%;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.8);
+            content: "\25BC";
+            position: absolute;
+            text-align: center;
+        }
+
+        /* Style northward tooltips differently */
+        .d3-tip.n:after {
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+        }
+        #map{ 
+
+            height: 500px }
+        </style>
+    </head>
+    <body>
+        <!-- load the d3.js library -->
+        <div class="col-md-12 col-sm-12">
+        <fieldset class="col-md-offset-2 col-md-4 col-sm-4">
+            <label for="mth_dropdown">Select Month</label>
+            <select class="dropdown" id="mth_dropdown" onchange="updateData()">
+                <option value="All">-</option>
+            </select>
+        </fieldset>
+        <fieldset class="col-md-offset-2 col-md-4 col-sm-4">
+            <label for="yr_dropdown">Select Year</label>
+            <select class="dropdown" id="yr_dropdown" onchange="updateData()">
+                <option value="All">-</option>
+            </select>
+
+        </fieldset> 
+    </div><br/>
+    <div id="linechart">
+
+    </div>
+    <div id="map"></div>
+    <!--link to main javascript file-->
+    <script src="js/d3.js" type="text/javascript"></script>
+
+
+    <script src="js/linechart.js"></script>
+    <script src="js/jquery-2.1.4.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/leaflet.js" type="text/javascript"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js'></script>
+    <script src="js/map.js" type="text/javascript"></script>
+    
+    <script>
+                $(document).ready(function () {
+                    drawLineGraph();
+                    drawMap();
+                });
+                var monthFormat = d3.time.format("%B");
+                var yrFormat = d3.time.format("%Y");
+                var monthList = [];
+                var yrList = [];
+                d3.csv("data/weather.csv", function (error, data) {
+                    data.forEach(function (d) {
+                        var dateTmp = parseDate(d.date);
+                        //console.log(dateTmp);
+                        var mth = monthFormat(dateTmp);
+                        var yr = yrFormat(dateTmp);
+                        if (monthList.length === 0) {
+                            monthList.push(mth);
+                        } else {
+                            var isContain = false;
+                            for (var i = 0; i < monthList.length; i++) {
+                                if (monthList[i] === mth) {
+                                    isContain = true;
+                                }
+                            }
+                            if (isContain === false) {
+                                monthList.push(mth);
+                            }
+                        }
+                        if (yrList.length === 0) {
+                            yrList.push(yr);
+                        } else {
+                            var isContain = false;
+                            for (var i = 0; i < yrList.length; i++) {
+                                if (yrList[i] === yr) {
+                                    isContain = true;
+                                }
+                            }
+                            if (isContain === false) {
+                                yrList.push(yr);
+                            }
+                        }
+
+                    })
+                    console.log(monthList);
+                    console.log(yrList);
+                    $(document).ready(function () {
+                        var mthDropdown = document.getElementById("mth_dropdown");
+                        var yrDropdown = document.getElementById("yr_dropdown");
+                        for (var i = 0; i < monthList.length; i++) {
+
+                            var option = document.createElement("option");
+                            option.text = monthList[i];
+                            option.value = monthList[i];
+                            mthDropdown.appendChild(option);
+                        }
+                        for (var i = 0; i < yrList.length; i++) {
+                            var option = document.createElement("option");
+                            option.text = yrList[i];
+                            option.value = yrList[i];
+                            yrDropdown.appendChild(option);
+                        }
+                    });
+
+                });
+                //console.log(monthList);
+                //console.log(yrList);
+                function updateData() {
+                    updatelgData();
+                    updateMapData();
+                }
+
+
+    </script>
+
+
+
+
+</body>
