@@ -61,6 +61,7 @@
                     ]
                 ]
             }, 
+			
             "type": "Feature", 
             "id": 0, 
             "properties": {
@@ -72,6 +73,8 @@
                     "60622", 
                     "60614"
                 ], 
+                "name": "Logan Square",
+				"density": 25372,
                 "ZIP": "60647", 
                 "adjacent_community_areas": [
                     "20", 
@@ -81,7 +84,12 @@
                     "24", 
                     "5", 
                     "7"
+					
+										
                 ]
+				
+				
+				
             }
         }, 
         {
@@ -141,6 +149,8 @@
                     "60641", 
                     "60618"
                 ], 
+                "name": "Hermosa",
+				"density": 19854,
                 "ZIP": "60639", 
                 "adjacent_community_areas": [
                     "19", 
@@ -150,6 +160,7 @@
                     "23", 
                     "25"
                 ]
+				
             }
         }, 
         {
@@ -187,12 +198,15 @@
                     "60634", 
                     "60639"
                 ], 
+                "name": "Elmwood Park",
+				"density": 11838 ,
                 "ZIP": "60707", 
                 "adjacent_community_areas": [
                     "18", 
                     "19", 
                     "25"
                 ]
+				
             }
         }, 
         {
@@ -232,12 +246,15 @@
                     "60624", 
                     "60612"
                 ], 
+                "name": "Austin",
+				"density": 20738,
                 "ZIP": "60651", 
                 "adjacent_community_areas": [
                     "23", 
                     "24", 
                     "25"
                 ]
+				
             }
         }, 
         {
@@ -331,12 +348,15 @@
                     "60629", 
                     "60632"
                 ], 
+                "name": "Garfield Ridge",
+				"density": 5010,
                 "ZIP": "60638", 
                 "adjacent_community_areas": [
                     "30", 
                     "56", 
                     "64"
                 ]
+				
             }
         }, 
         {
@@ -407,12 +427,15 @@
                     "60629", 
                     "60620"
                 ], 
+                "name": "Ashburn",
+				"density": 8425,
                 "ZIP": "60652", 
                 "adjacent_community_areas": [
                     "65", 
                     "66", 
                     "70"
                 ]
+				
             }
         }, 
         {
@@ -671,12 +694,17 @@
                     "60660", 
                     "60659"
                 ], 
+                "name": "Rogers Park",
+				"density": 34520,
                 "ZIP": "60626", 
                 "adjacent_community_areas": [
                     "1", 
                     "2", 
                     "77"
                 ]
+				
+				
+
             }
         }, 
         {
@@ -751,11 +779,14 @@
                     "60660", 
                     "60659"
                 ], 
+                "name": "West Ridge",
+				"density": 18576,
                 "ZIP": "60645", 
                 "adjacent_community_areas": [
                     "1", 
                     "2"
                 ]
+		
             }
         }, 
         {
@@ -872,6 +903,8 @@
                     "60659", 
                     "60626"
                 ], 
+                "name": "Edgewater",
+				"density": 34193,
                 "ZIP": "60660", 
                 "adjacent_community_areas": [
                     "1", 
@@ -879,6 +912,8 @@
                     "4", 
                     "77"
                 ]
+				
+				
             }
         }, 
         {
@@ -1170,6 +1205,8 @@
                     "60625", 
                     "60613"
                 ], 
+                "name": "Edgewater",
+				"density": 32103,
                 "ZIP": "60640", 
                 "adjacent_community_areas": [
                     "3", 
@@ -1178,6 +1215,8 @@
                     "6", 
                     "77"
                 ]
+				
+				
             }
         }, 
         {
@@ -1225,6 +1264,8 @@
                     "60640", 
                     "60660"
                 ], 
+                "name": "Albany Park",
+				"density": 23681,
                 "ZIP": "60625", 
                 "adjacent_community_areas": [
                     "13", 
@@ -1233,6 +1274,7 @@
                     "4", 
                     "5"
                 ]
+				
             }
         }, 
         {
@@ -1274,6 +1316,8 @@
                     "60639", 
                     "60625"
                 ], 
+                "name": "Kilbourn Park",
+                "density": 18163,
                 "ZIP": "60641", 
                 "adjacent_community_areas": [
                     "14", 
@@ -1284,6 +1328,7 @@
                     "21", 
                     "22"
                 ]
+				
             }
         }, 
         {
@@ -1555,12 +1600,16 @@
                     "60618", 
                     "60614"
                 ], 
+                "name": "North Center",
+				"density": 31204,
                 "ZIP": "60657", 
                 "adjacent_community_areas": [
                     "5", 
                     "6", 
                     "7"
                 ]
+				
+				
             }
         }, 
         {
@@ -1752,6 +1801,8 @@
                     "60653", 
                     "60621"
                 ], 
+                "name": "Kenwood",
+				"density": 18936,
                 "ZIP": "60615", 
                 "adjacent_community_areas": [
                     "38", 
@@ -1759,6 +1810,7 @@
                     "40", 
                     "41"
                 ]
+				
             }
         }, 
         {
@@ -1816,6 +1868,7 @@
                     "60636", 
                     "60620"
                 ], 
+				"density": 12891,
                 "ZIP": "60621", 
                 "adjacent_community_areas": [
                     "40", 
@@ -1824,6 +1877,7 @@
                     "69", 
                     "71"
                 ]
+				
             }
         }, 
         {
@@ -1877,6 +1931,8 @@
                     "60620", 
                     "60629"
                 ], 
+                "name": "West Englewood",
+				"density": 13581,
                 "ZIP": "60636", 
                 "adjacent_community_areas": [
                     "63", 
@@ -1886,6 +1942,7 @@
                     "70", 
                     "71"
                 ]
+				
             }
         }, 
         {
@@ -2248,6 +2305,8 @@
                     "60637", 
                     "60619"
                 ], 
+                "name": "South Shore",
+				"density": 17870,
                 "ZIP": "60649", 
                 "adjacent_community_areas": [
                     "42", 
@@ -2255,6 +2314,7 @@
                     "45", 
                     "46"
                 ]
+				
             }
         }, 
         {
@@ -2581,6 +2641,8 @@
                     "60619", 
                     "60628"
                 ], 
+                "name": "South Chicago",
+				"density": 7168,
                 "ZIP": "60617", 
                 "adjacent_community_areas": [
                     "43", 
@@ -2592,6 +2654,7 @@
                     "52", 
                     "55"
                 ]
+				
             }
         }, 
         {
@@ -2662,6 +2725,8 @@
                     "60655", 
                     "60620"
                 ], 
+                "name": "Beverly",
+				"density": 7845,
                 "ZIP": "60643", 
                 "adjacent_community_areas": [
                     "49", 
@@ -2670,6 +2735,7 @@
                     "73", 
                     "75"
                 ]
+				
             }
         },
         {
@@ -2722,6 +2788,8 @@
                     "60608", 
                     "60624"
                 ], 
+                "name": "West Garfield Park",
+				"density": 10195,
                 "ZIP": "60612", 
                 "adjacent_community_areas": [
                     "23", 
@@ -2730,6 +2798,7 @@
                     "28", 
                     "29"
                 ]
+			
             }
         }, 
         {
@@ -2790,6 +2859,8 @@
                     "60623", 
                     "60644"
                 ], 
+                "name": "West Garfield Park",
+				"density": 13574,
                 "ZIP": "60624", 
                 "adjacent_community_areas": [
                     "23", 
@@ -2798,6 +2869,7 @@
                     "27", 
                     "29"
                 ]
+				
             }
         }, 
         {
@@ -2856,11 +2928,14 @@
                     "60623", 
                     "60624"
                 ], 
+                "name": "Austin",
+				"density": 16705,
                 "ZIP": "60644", 
                 "adjacent_community_areas": [
                     "25", 
                     "26"
                 ]
+				
             }
         }, 
         {
@@ -3007,6 +3082,8 @@
                     "60615", 
                     "60616"
                 ], 
+                "name": "Bronzeville",
+				"density": 15629,
                 "ZIP": "60653", 
                 "adjacent_community_areas": [
                     "35", 
@@ -3014,6 +3091,7 @@
                     "38", 
                     "39"
                 ]
+				
             }
         }, 
         {
@@ -3066,6 +3144,8 @@
                     "60632", 
                     "60629"
                 ], 
+                "name": "Back of The Yards",
+				"density": 10286,
                 "ZIP": "60609", 
                 "adjacent_community_areas": [
                     "34", 
@@ -3081,6 +3161,7 @@
                     "67", 
                     "68"
                 ]
+				
             }
         }, 
         {
@@ -3523,10 +3604,13 @@
                 "adjacent_zips": [
                     "60656"
                 ], 
+                "name": "O'Hare",
+				"density": 2225,
                 "ZIP": "60666", 
                 "adjacent_community_areas": [
                     "76"
                 ]
+				
             }
         }, 
         {
@@ -3575,6 +3659,8 @@
                     "60647", 
                     "60630"
                 ], 
+                "name": "Irving Park",
+				"density": 19640,
                 "ZIP": "60618", 
                 "adjacent_community_areas": [
                     "14", 
@@ -3585,6 +3671,7 @@
                     "5", 
                     "7"
                 ]
+				
             }
         }, 
         {
@@ -3800,6 +3887,8 @@
                     "60609", 
                     "60608"
                 ], 
+                "name": "South Loop",
+				"density": 13984,
                 "ZIP": "60616", 
                 "adjacent_community_areas": [
                     "28", 
@@ -3810,6 +3899,7 @@
                     "36", 
                     "60"
                 ]
+				
             }
         }, 
         {
@@ -3855,6 +3945,8 @@
                     "60632", 
                     "60623"
                 ], 
+                "name": "Lower West Side",
+				"density": 14180,
                 "ZIP": "60608", 
                 "adjacent_community_areas": [
                     "28", 
@@ -3865,6 +3957,8 @@
                     "59", 
                     "60"
                 ]
+				
+				
             }
         }, 
         {
@@ -4180,7 +4274,9 @@
                     "60618", 
                     "60647", 
                     "60657"
-                ], 
+                ],
+                "name": "Lincoln Park",
+				"density": 20838,
                 "ZIP": "60614", 
                 "adjacent_community_areas": [
                     "22", 
@@ -4190,6 +4286,7 @@
                     "7", 
                     "8"
                 ]
+				
             }
         }, 
         {
@@ -4428,6 +4525,8 @@
                     "60630", 
                     "60646"
                 ], 
+                "name": "Norwood Park",
+				"density": 7754,
                 "ZIP": "60631", 
                 "adjacent_community_areas": [
                     "10", 
@@ -4435,6 +4534,7 @@
                     "76", 
                     "9"
                 ]
+				
             }
         }, 
         {
@@ -4591,6 +4691,8 @@
                     "60630", 
                     "60656"
                 ], 
+                "name": "Sauganash",
+				"density": 5741,
                 "ZIP": "60646", 
                 "adjacent_community_areas": [
                     "10", 
@@ -4598,6 +4700,7 @@
                     "12", 
                     "13"
                 ]
+				
             }
         }, 
         {
@@ -4750,6 +4853,8 @@
                     "60827", 
                     "60620"
                 ], 
+                "name": "Pullman",
+				"density": 8286,
                 "ZIP": "60628", 
                 "adjacent_community_areas": [
                     "49", 
@@ -4760,6 +4865,7 @@
                     "55", 
                     "73"
                 ]
+				
             }
         }, 
         {
@@ -4774,13 +4880,15 @@
                     "60628",
                     "60617"
                 ], 
-                "name": "60827 & 60633",
+                "density": 1102,
+                "name": "Riverdale",
                 "ZIP": "60827", 
                 "adjacent_community_areas": [
                     "54", 
                     "55",
                     "51"
                 ]
+				
             }
         }, 
         {
@@ -4864,6 +4972,8 @@
                     "60641", 
                     "60618"
                 ], 
+                "name": "Portage Park",
+				"density": 11213,
                 "ZIP": "60630", 
                 "adjacent_community_areas": [
                     "10", 
@@ -4874,6 +4984,7 @@
                     "15", 
                     "16"
                 ]
+				
             }
         }, 
         {
@@ -5250,12 +5361,15 @@
                     "60631", 
                     "60634"
                 ], 
+                "name": "Norwood Park",
+				"density": 7590,
                 "ZIP": "60656", 
                 "adjacent_community_areas": [
                     "10", 
                     "11", 
                     "76"
                 ]
+				
             }
         }, 
         {
@@ -5438,12 +5552,15 @@
                 "adjacent_zips": [
                     "60643"
                 ], 
+                "name": "Mt Greenwood",
+				"density": 6541,
                 "ZIP": "60655", 
                 "adjacent_community_areas": [
                     "72", 
                     "74", 
                     "75"
                 ]
+				
             }
         }, 
         {
@@ -5505,6 +5622,8 @@
                     "60646", 
                     "60625"
                 ], 
+                "name": "North Park",
+				"density": 19859,
                 "ZIP": "60659", 
                 "adjacent_community_areas": [
                     "12", 
@@ -5512,6 +5631,7 @@
                     "2", 
                     "4"
                 ]
+				
             }
         }, 
         {
@@ -5647,6 +5767,8 @@
                     "60641", 
                     "60656"
                 ], 
+                "name": "Dunning",
+				"density": 10611,
                 "ZIP": "60634", 
                 "adjacent_community_areas": [
                     "15", 
@@ -5655,6 +5777,7 @@
                     "19", 
                     "76"
                 ]
+				
             }
         }, 
         {
@@ -5730,6 +5853,8 @@
                     "60640", 
                     "60618"
                 ], 
+                "name": "Lakeview East",
+				"density": 25857,
                 "ZIP": "60613", 
                 "adjacent_community_areas": [
                     "3", 
@@ -5737,6 +5862,7 @@
                     "5", 
                     "6"
                 ]
+				
             }
         }, 
         {
@@ -5822,6 +5948,8 @@
                     "60623", 
                     "60608"
                 ], 
+                "name": "Brighton Park",
+				"density": 12507,
                 "ZIP": "60632", 
                 "adjacent_community_areas": [
                     "30", 
@@ -5833,6 +5961,7 @@
                     "62", 
                     "63"
                 ]
+				
             }
         }, 
         {
@@ -5904,12 +6033,15 @@
                     "60624", 
                     "60608"
                 ], 
+                "name": "Little Village",
+				"density": 19007,
                 "ZIP": "60623", 
                 "adjacent_community_areas": [
                     "29", 
                     "30", 
                     "58"
                 ]
+				
             }
         }, 
         {
@@ -6003,6 +6135,8 @@
                     "60652", 
                     "60609"
                 ], 
+                "name": "Chicago Lawn",
+				"density": 15212,
                 "ZIP": "60629", 
                 "adjacent_community_areas": [
                     "56", 
@@ -6013,6 +6147,7 @@
                     "66", 
                     "70"
                 ]
+				
             }
         }, 
         {
@@ -6079,6 +6214,8 @@
                     "60621", 
                     "60636"
                 ], 
+                "name": "Auburn Gresham",
+				"density": 11439,
                 "ZIP": "60620", 
                 "adjacent_community_areas": [
                     "44", 
@@ -6091,6 +6228,7 @@
                     "72", 
                     "73"
                 ]
+				
             }
         }, 
         {
@@ -6283,6 +6421,8 @@
                     "60619", 
                     "60621"
                 ], 
+                "name": "Woodlawn",
+				"density": 13045,
                 "ZIP": "60637", 
                 "adjacent_community_areas": [
                     "40", 
@@ -6291,6 +6431,7 @@
                     "43", 
                     "69"
                 ]
+				
             }
         }, 
         {
@@ -6360,6 +6501,8 @@
                     "60649", 
                     "60621"
                 ], 
+                "name": "Burnside",
+				"density": 11991,
                 "ZIP": "60619", 
                 "adjacent_community_areas": [
                     "43", 
@@ -6372,6 +6515,7 @@
                     "51", 
                     "69"
                 ]
+				
             }
         }, 
         {
@@ -6859,13 +7003,15 @@
                     "60610", 
                     "6761"
                 ], 
-                "name": "60601, 60602, 60603, 60604, 60605 & 60611", 
-                "ZIP": "12311", 
+                "density": 17783,
+                "name": "Chicago Loop", 
+                "ZIP": "60601, 60602, 60603, 60604, 60605 & 60611", 
                 "adjacent_community_areas": [
                     "32", 
                     "33", 
                     "8"
                 ]
+				
             }
         }, 
         {
@@ -6943,8 +7089,9 @@
                     "12311", 
                     "60610"
                 ], 
-                "name": "60606, 60607 & 60661", 
-                "ZIP": "6761", 
+                "density": 15455,
+                "name": "West Loop", 
+                "ZIP": "60606, 60607 & 60661", 
                 "adjacent_community_areas": [
                     "24", 
                     "28", 
@@ -6953,6 +7100,7 @@
                     "33", 
                     "8"
                 ]
+				
             }
         }, 
         {
@@ -7052,7 +7200,8 @@
                     "6761", 
                     "60622"
                 ], 
-                "name": "60610 & 60654", 
+                "density": 31204,
+                "name": "Oldtown", 
                 "ZIP": "60610", 
                 "adjacent_community_areas": [
                     "24", 
@@ -7060,6 +7209,7 @@
                     "7", 
                     "8"
                 ]
+			
             }
         }, 
         {
@@ -7166,7 +7316,8 @@
                     "60651", 
                     "60647"
                 ], 
-                "name": "60642 & 60622", 
+                "name": "Noble Square", 
+				"density": 17489,
                 "ZIP": "60622", 
                 "adjacent_community_areas": [
                     "22", 
@@ -7176,6 +7327,7 @@
                     "7", 
                     "8"
                 ]
+				
             }
         }
     ]
